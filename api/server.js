@@ -37,7 +37,7 @@ app.use('/api', productosRoutes); // Usar rutas de productos
 app.use('/api', pedidosRoutes);  // Usar rutas de pedidos
 
 // Configurar el puerto en el que escuchará el servidor
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 1000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
 }); 
