@@ -14,7 +14,7 @@ const app = express();
 
 // Configuración de CORS
 const corsOptions = {
-  origin:process.env.FRONTEND_URL || 'http://localhost:5173', // Reemplaza con el dominio de tu frontend
+  origin:process.env.FRONTEND_URL || 'http://localhost:21017', // Reemplaza con el dominio de tu frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
   allowedHeaders: ['Content-Type', 'Authorization'], // Cabeceras permitidas
   credentials: true // Habilita el manejo de cookies y otros credenciales
